@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(user_input)
-  if (user_input = "invalide")
+  if (user_input === "invalide")
     return -1
   else
   input = user_input.to_i
